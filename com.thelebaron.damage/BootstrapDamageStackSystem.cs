@@ -4,7 +4,8 @@ using Unity.Jobs;
 namespace thelebaron.Damage
 {
     /// <summary>
-    /// All this system does is add a DamageStack buffer to an entity with a health component. It does nothing else(should this be rolled into the health system?).
+    /// All this system does is add a DamageStack buffer to an entity with a health component. 
+    /// It does nothing else(should this be rolled into the health system?).
     /// </summary>
     public class BootstrapDamageStackSystem : JobComponentSystem
     {
