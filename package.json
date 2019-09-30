@@ -1,10 +1,10 @@
 {
   "name": "com.thelebaron.damage",
   "displayName": "Damage",
-  "version": "0.0.1-preview",
+  "version": "0.0.2-preview",
   "type": "library",
   "hideInEditor": false,
-  "description": "",
+  "description": "A collection of general use damage components and systems, to easily handle a common part of games.",
   "dependencies": {
     "com.unity.burst": "1.1.3-preview.3",
     "com.unity.collections": "0.1.1-preview",
