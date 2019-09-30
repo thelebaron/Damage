@@ -5,7 +5,7 @@ using Unity.Entities;
 using Unity.Jobs;
 using UnityEngine;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     [UpdateInGroup(typeof(DamageUpdateGroup))]
     public class HealthSystem : JobComponentSystem

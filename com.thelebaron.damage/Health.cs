@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     public struct Health : IComponentData
     {

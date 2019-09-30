@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     // This describes the number of buffer elements that should be reserved
     // in chunk data for each instance of a buffer. In this case, 8 integers

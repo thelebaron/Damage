@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     //[Serializable]
     public struct DamageEvent: IComponentData

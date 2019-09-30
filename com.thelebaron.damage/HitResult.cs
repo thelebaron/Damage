@@ -1,6 +1,6 @@
 using Unity.Mathematics;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     public struct HitResult
     {

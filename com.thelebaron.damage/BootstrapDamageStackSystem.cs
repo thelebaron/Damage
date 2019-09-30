@@ -1,7 +1,7 @@
 using Unity.Entities;
 using Unity.Jobs;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     /// <summary>
     /// All this system does is add a DamageStack buffer to an entity with a health component. It does nothing else(should this be rolled into the health system?).

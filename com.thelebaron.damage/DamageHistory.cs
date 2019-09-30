@@ -1,7 +1,7 @@
 using Unity.Entities;
 using Unity.Mathematics;
 
-namespace Damage
+namespace thelebaron.Damage
 {
     public struct DamageHistory : IBufferElementData
     {
