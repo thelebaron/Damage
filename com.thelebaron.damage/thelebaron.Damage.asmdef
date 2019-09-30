@@ -1,0 +1,16 @@
+{
+    "name": "thelebaron.Damage",
+    "references": [
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Jobs",
+        "UnityEngine",
+        "Unity.Mathematics",
+        "Unity.Mathematics.Extensions",
+        "Unity.Entities.StaticTypeRegistry"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+	"allowUnsafeCode": true
+}
