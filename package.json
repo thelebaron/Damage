@@ -1,7 +1,7 @@
 {
   "name": "com.thelebaron.damage",
   "displayName": "Damage",
-  "version": "0.0.2-preview",
+  "version": "0.0.3-preview",
   "type": "library",
   "hideInEditor": false,
   "description": "A collection of general use damage components and systems, to easily handle a common part of games.",
