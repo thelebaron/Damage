@@ -4,7 +4,7 @@
   "version": "0.0.3-preview",
   "type": "library",
   "hideInEditor": false,
-  "description": "A collection of general use damage components and systems, to easily handle a common part of games.",
+  "description": "A collection of general use components and systems, which help facilitate causing and receiving damage.",
   "dependencies": {
     "com.unity.burst": "1.1.3-preview.3",
     "com.unity.collections": "0.1.1-preview",

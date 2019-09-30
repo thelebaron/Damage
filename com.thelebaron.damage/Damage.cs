@@ -4,6 +4,6 @@ namespace thelebaron.Damage
 {
     public struct Damage : IComponentData
     {
-        public int Value;
+        public int DamageAmount;
     }
 }
