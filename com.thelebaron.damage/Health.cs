@@ -1,11 +1,4 @@
-using System.Collections.Generic;
-using Unity.Burst;
-using Unity.Collections;
 using Unity.Entities;
-using Unity.Jobs;
-using Unity.Mathematics;
-using Unity.Transforms;
-using UnityEngine;
 
 namespace Damage
 {
@@ -14,7 +7,7 @@ namespace Damage
         public int  Value;
         public int  Max;
         public bool Invulnerable;
-        //public bool Gibbed;
+        public bool Gibbed;
         public int  LastDamageTaken;
 
         
@@ -28,14 +21,13 @@ namespace Damage
             Value -= damageEvent.Amount;
             LastDamageTaken = damageEvent.Amount;
 
-            /*
             if (Value <= 0)
             {
                 var gibThresh = Max * -1;
 
                 if (Value <= gibThresh)
                     Gibbed = true;
-            }*/
+            }
         }
 
         public void ApplyHealth(int amount)
@@ -45,6 +37,5 @@ namespace Damage
 
             Value += amount;
         }
-    
     }
 }
