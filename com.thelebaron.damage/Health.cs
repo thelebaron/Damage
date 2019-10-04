@@ -10,7 +10,7 @@ namespace thelebaron.Damage
         public int  Value;
         public int  Max;
         public bool Invulnerable;
-        public bool Gibbed;
+        //public bool Gibbed;
         public int  LastDamageTaken;
         
         public static Health Default => new Health() {Value = 50, Max = 50};
