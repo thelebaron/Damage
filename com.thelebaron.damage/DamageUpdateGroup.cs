@@ -2,6 +2,5 @@ using Unity.Entities;
 
 namespace thelebaron.Damage
 {
-
-    public class DamageUpdateGroup : ComponentSystemGroup { }
+    //public class DamageUpdateGroup : ComponentSystemGroup { }
 }

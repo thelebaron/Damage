@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace thelebaron.Damage
 {
-    [UpdateInGroup(typeof(DamageUpdateGroup))]
+    //[UpdateInGroup(typeof(DamageUpdateGroup))]
     public class HealthSystem : JobComponentSystem
     {
         private EndSimulationEntityCommandBufferSystem m_EndSim;
