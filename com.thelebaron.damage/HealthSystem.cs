@@ -16,7 +16,7 @@ namespace thelebaron.Damage
 
         protected override void OnCreate()
         {
-            m_EndSim            = World.Active.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
+            m_EndSim            = World.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
             m_DamageEventsQuery = GetEntityQuery(typeof(DamageEvent));
             m_HistoryQuery      = GetEntityQuery(typeof(DamageHistory));
         }
@@ -111,7 +111,7 @@ namespace thelebaron.Damage
         /// <summary>
         /// Add dead tag to health components that are technically dead
         /// </summary>
-        //[BurstCompile]
+        [BurstCompile]
         [ExcludeComponent(typeof(Dead))]
         private struct TagDeadJob : IJobForEachWithEntity<Health>
         {

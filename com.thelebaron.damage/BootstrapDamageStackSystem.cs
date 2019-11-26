@@ -15,7 +15,7 @@ namespace thelebaron.Damage
         protected override void OnCreate()
         {
             base.OnCreate();
-            m_EndSimSystem = World.Active.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
+            m_EndSimSystem = World.GetOrCreateSystem<EndSimulationEntityCommandBufferSystem>();
             m_HealthQuery = GetEntityQuery(new EntityQueryDesc
             {
                 All = new ComponentType[]
